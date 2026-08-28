@@ -1,8 +1,6 @@
 #include "high_precision.h"
 #include <algorithm>
 
-using std::cout;
-using std::endl;
 namespace hacker_wang {
     bool align(int_hp& a,int_hp& b){
         if(a.size()==b.size())
